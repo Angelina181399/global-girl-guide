@@ -25,21 +25,6 @@ const Navbar = () => {
             <Link to="/outfit" className="text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
               穿搭推荐
             </Link>
-            <Link to="/body-shape" className="text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
-              体型测评
-            </Link>
-            <Link to="/skin-tone" className="text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
-              肤色测评
-            </Link>
-            <Link to="/styling-assistant" className="text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
-              搭配助手
-            </Link>
-            <Link to="/occasion-guide" className="text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
-              场合穿搭
-            </Link>
-            <Link to="/brand-guide" className="text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
-              品牌推荐
-            </Link>
             <Link to="/resources" className="text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
               生活资源
             </Link>
@@ -81,21 +66,6 @@ const Navbar = () => {
             </Link>
             <Link to="/outfit" className="text-gray-700 hover:text-primary-500 block px-3 py-2 rounded-md text-base font-medium">
               穿搭推荐
-            </Link>
-            <Link to="/body-shape" className="text-gray-700 hover:text-primary-500 block px-3 py-2 rounded-md text-base font-medium">
-              体型测评
-            </Link>
-            <Link to="/skin-tone" className="text-gray-700 hover:text-primary-500 block px-3 py-2 rounded-md text-base font-medium">
-              肤色测评
-            </Link>
-            <Link to="/styling-assistant" className="text-gray-700 hover:text-primary-500 block px-3 py-2 rounded-md text-base font-medium">
-              搭配助手
-            </Link>
-            <Link to="/occasion-guide" className="text-gray-700 hover:text-primary-500 block px-3 py-2 rounded-md text-base font-medium">
-              场合穿搭
-            </Link>
-            <Link to="/brand-guide" className="text-gray-700 hover:text-primary-500 block px-3 py-2 rounded-md text-base font-medium">
-              品牌推荐
             </Link>
             <Link to="/resources" className="text-gray-700 hover:text-primary-500 block px-3 py-2 rounded-md text-base font-medium">
               生活资源
