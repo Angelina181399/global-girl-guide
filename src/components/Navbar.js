@@ -18,25 +18,40 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
-            <a href="#" className="text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
+          <div className="hidden md:flex items-center space-x-6">
+            <Link to="/" className="text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
               首页
-            </a>
+            </Link>
             <Link to="/outfit" className="text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
               穿搭推荐
             </Link>
-            <a href="#" className="text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
+            <Link to="/body-shape" className="text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
+              体型测评
+            </Link>
+            <Link to="/skin-tone" className="text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
+              肤色测评
+            </Link>
+            <Link to="/styling-assistant" className="text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
+              搭配助手
+            </Link>
+            <Link to="/occasion-guide" className="text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
+              场合穿搭
+            </Link>
+            <Link to="/brand-guide" className="text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
+              品牌推荐
+            </Link>
+            <Link to="/resources" className="text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
               生活资源
-            </a>
-            <a href="#" className="text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
+            </Link>
+            <Link to="/dictionary" className="text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
               文化词典
-            </a>
-            <a href="#" className="text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
+            </Link>
+            <Link to="/community" className="text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
               社区
-            </a>
-            <button className="btn-primary text-sm">
+            </Link>
+            <Link to="/login" className="btn-primary text-sm">
               登录
-            </button>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -61,24 +76,39 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white shadow-lg">
-            <a href="#" className="text-gray-700 hover:text-primary-500 block px-3 py-2 rounded-md text-base font-medium">
+            <Link to="/" className="text-gray-700 hover:text-primary-500 block px-3 py-2 rounded-md text-base font-medium">
               首页
-            </a>
+            </Link>
             <Link to="/outfit" className="text-gray-700 hover:text-primary-500 block px-3 py-2 rounded-md text-base font-medium">
               穿搭推荐
             </Link>
-            <a href="#" className="text-gray-700 hover:text-primary-500 block px-3 py-2 rounded-md text-base font-medium">
+            <Link to="/body-shape" className="text-gray-700 hover:text-primary-500 block px-3 py-2 rounded-md text-base font-medium">
+              体型测评
+            </Link>
+            <Link to="/skin-tone" className="text-gray-700 hover:text-primary-500 block px-3 py-2 rounded-md text-base font-medium">
+              肤色测评
+            </Link>
+            <Link to="/styling-assistant" className="text-gray-700 hover:text-primary-500 block px-3 py-2 rounded-md text-base font-medium">
+              搭配助手
+            </Link>
+            <Link to="/occasion-guide" className="text-gray-700 hover:text-primary-500 block px-3 py-2 rounded-md text-base font-medium">
+              场合穿搭
+            </Link>
+            <Link to="/brand-guide" className="text-gray-700 hover:text-primary-500 block px-3 py-2 rounded-md text-base font-medium">
+              品牌推荐
+            </Link>
+            <Link to="/resources" className="text-gray-700 hover:text-primary-500 block px-3 py-2 rounded-md text-base font-medium">
               生活资源
-            </a>
-            <a href="#" className="text-gray-700 hover:text-primary-500 block px-3 py-2 rounded-md text-base font-medium">
+            </Link>
+            <Link to="/dictionary" className="text-gray-700 hover:text-primary-500 block px-3 py-2 rounded-md text-base font-medium">
               文化词典
-            </a>
-            <a href="#" className="text-gray-700 hover:text-primary-500 block px-3 py-2 rounded-md text-base font-medium">
+            </Link>
+            <Link to="/community" className="text-gray-700 hover:text-primary-500 block px-3 py-2 rounded-md text-base font-medium">
               社区
-            </a>
-            <button className="btn-primary w-full mt-4">
+            </Link>
+            <Link to="/login" className="btn-primary w-full mt-4">
               登录
-            </button>
+            </Link>
           </div>
         </div>
       )}
@@ -86,4 +116,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar; 
+export default Navbar;
